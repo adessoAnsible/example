@@ -9,6 +9,8 @@
   roles:
     - git
     - vim
+    - jdk
+    - maven
 
 - hosts: basicSetUp
 

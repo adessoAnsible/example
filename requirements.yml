@@ -6,3 +6,11 @@
 - src: https://github.com/adessoAnsible/vim
   scm: git
   name: vim
+
+- src: https://github.com/adessoAnsible/jdk
+  scm: git
+  name: jdk
+
+- src: https://github.com/adessoAnsible/maven
+  scm: git
+  name: maven
