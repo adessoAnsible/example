@@ -8,6 +8,7 @@
 
   roles:
     - git
+    - vim
 
 - hosts: basicSetUp
 

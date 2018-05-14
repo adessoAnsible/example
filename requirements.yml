@@ -2,3 +2,7 @@
 - src: https://github.com/adessoAnsible/git
   scm: git
   name: git
+
+- src: https://github.com/adessoAnsible/vim
+  scm: git
+  name: vim
