@@ -20,3 +20,6 @@
   roles:
     - role: git_checkout
       dest_folder: '{{ dest_dir }}'
+
+    - role: intellij
+      dest_folder: '{{ dest_dir }}'

@@ -14,3 +14,7 @@
 - src: https://github.com/adessoAnsible/maven
   scm: git
   name: maven
+
+- src: https://github.com/adessoAnsible/intellij
+  scm: git
+  name: intellij
