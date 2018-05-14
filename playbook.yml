@@ -12,7 +12,7 @@
 - hosts: basicSetUp
 
   vars:
-    dest_dir: '/home/{{ ansible_user }}/Desktop'
+    dest_dir: '/home/{{ ansible_user }}/projects'
 
   roles:
     - role: git_checkout
