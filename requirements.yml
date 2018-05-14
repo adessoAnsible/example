@@ -26,3 +26,7 @@
 - src: https://github.com/adessoAnsible/curl
   scm: git
   name: curl
+
+- src: https://github.com/adessoAnsible/docker_compose
+  scm: git
+  name: docker_compose

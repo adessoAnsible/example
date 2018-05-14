@@ -26,3 +26,5 @@
       dest_folder: '{{ dest_dir }}/Desktop'
 
     - role: docker
+
+    - role: docker_compose
