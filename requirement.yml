@@ -1,0 +1,4 @@
+---
+- src: https://github.com/adessoAnsible/git
+  scm: git
+  name: git

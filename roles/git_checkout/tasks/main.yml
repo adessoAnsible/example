@@ -1,0 +1,5 @@
+---
+- name: git checkout
+  git:
+    repo: 'https://github.com/robertBrem/hero-command'
+    dest: "{{ dest_folder }}/test"

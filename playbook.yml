@@ -1,0 +1,19 @@
+---
+- hosts: basicSetUp
+
+  become: yes
+
+  vars:
+    ansible_sudo_pass: 'vagrant'
+
+  roles:
+    - git
+
+- hosts: basicSetUp
+
+  vars:
+    dest_dir: '/home/{{ ansible_user }}/Desktop'
+
+  roles:
+    - role: git_checkout
+      dest_folder: '{{ dest_dir }}'
