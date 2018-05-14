@@ -22,3 +22,7 @@
 - src: https://github.com/adessoAnsible/docker
   scm: git
   name: docker
+
+- src: https://github.com/adessoAnsible/curl
+  scm: git
+  name: curl
