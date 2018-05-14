@@ -15,11 +15,11 @@
 - hosts: basicSetUp
 
   vars:
-    dest_dir: '/home/{{ ansible_user }}/projects'
+    dest_dir: '/home/{{ ansible_user }}'
 
   roles:
     - role: git_checkout
-      dest_folder: '{{ dest_dir }}'
+      dest_folder: '{{ dest_dir }}/projects'
 
     - role: intellij
-      dest_folder: '{{ dest_dir }}'
+      dest_folder: '{{ dest_dir }}/Desktop'
