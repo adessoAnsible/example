@@ -12,7 +12,6 @@
     - jdk
     - maven
     - curl
-    - docker
 
 - hosts: basicSetUp
 
@@ -25,3 +24,5 @@
 
     - role: intellij
       dest_folder: '{{ dest_dir }}/Desktop'
+
+    - role: docker
