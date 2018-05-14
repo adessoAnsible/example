@@ -18,3 +18,7 @@
 - src: https://github.com/adessoAnsible/intellij
   scm: git
   name: intellij
+
+- src: https://github.com/adessoAnsible/docker
+  scm: git
+  name: docker
