@@ -12,6 +12,7 @@
     - jdk
     - maven
     - curl
+    - npm
 
 - hosts: basicSetUp
 
