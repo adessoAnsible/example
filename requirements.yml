@@ -30,3 +30,7 @@
 - src: https://github.com/adessoAnsible/docker_compose
   scm: git
   name: docker_compose
+  
+  - src: https://github.com/adessoAnsible/npm
+  scm: git
+  name: npm
